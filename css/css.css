@@ -1,0 +1,129 @@
+html,body,div,p,a,img,header{
+    border:0;
+    font-size:100%;
+    vertical-align:baseline;
+    outline:none;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+    color:black;
+}
+
+html {
+    height:101%;
+}
+
+body {
+    font-size:62.5%;
+    line-height:1;
+    font-family:Arial, Tahoma, sans-serif;
+    background-color:#262626;
+    padding-bottom:65px;
+}
+
+img {
+    border:0;
+    max-width:100%;
+}
+
+#topbar {
+    position:fixed;
+    top:0;
+    width:100%;
+
+    z-index:999;
+    background:white;
+    border-bottom:1px solid #575656;
+    padding-top:5px;
+}
+
+
+
+#search,#submit ,#clear{
+    color:black;
+
+}
+
+
+#clear:hover{
+    background-color:orange;
+    cursor:pointer;
+    color:black;
+
+}
+#wrapper {
+    padding-top:0px;
+    margin:0 auto;
+    border:0px solid red;
+}
+#status{ 
+    background: none repeat scroll 0 0 white;
+    bottom: -478px;
+    color: black;
+    font-family: Arial,sans-serif;
+    font-size: 1.75em;
+    height: 40px;
+    left: 1px;
+    margin: 0;
+    overflow: hidden;
+    padding: 5px;
+    position: relative;
+    text-align: left;
+    width:70%;
+}
+
+#gallery {
+    position: absolute; 
+    left: 30px;  
+    top: 105px;
+    height:400px; 
+    overflow:auto; 
+    width:56%;
+} 
+figure {
+    float:left;
+    position:relative;
+    margin-right:15px;
+    margin-bottom:1.35em;
+    padding:30px;
+    border:1px solid #c6c6c6;
+    -webkit-box-shadow:1px 1px 22px rgba(0,0,0,0.35);
+    -moz-box-shadow:1px 1px 22px rgba(0,0,0,0.35);
+    box-shadow:1px 1px 22px rgba(0,0,0,0.35);
+}
+
+#noresults {
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    margin-top: 20%;
+}
+
+#noresults  h2 {
+    color:#cccccc;	
+    font-size:40px;
+}
+
+.clearfix:after {
+    content:".";
+    display:block;
+    clear:both;
+    visibility:hidden;
+    line-height:0;
+    height:0;
+}
+
+.clearfix {
+    display:inline-block;
+}
+
+html[xmlns] .clearfix {
+    display:block;
+}
+
+* html .clearfix {
+    height:1%;
+}
+

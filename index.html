@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Flickr Search App</title>
+        <link rel="stylesheet" type="text/css" href="css/css.css">
+        <link rel="shortcut icon" href="images/search.png" />
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="js/main.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+    </head>
+
+    <body>
+
+        <header id="topbar">
+            <section id="fetch">
+                <h3>Flickr Search App</h3>
+                <form>
+                    <input type="text" value="" id="term" />
+                    <input id="submit" type="button" value="Search">
+                    <input type="reset" id="clear" value="Clear" />
+                </form>
+            </section>
+        </header>
+        
+
+        <div id="wrapper">
+            <div id="gallery" class="clearfix"></div>
+            <div class="clearfix"></div>
+        </div>
+        <div id="status"> </div>        
+    </body>
+</html>
